@@ -54,14 +54,13 @@ export default function HeroSection() {
             transition={{ delay: 0.5 }}
             className="font-body text-sm md:text-base tracking-[0.3em] uppercase text-pearl/80 mb-4"
           >
-            Wholesale Ethnic Wear from Mysuru
+            Wholesale Fashion Collections
           </motion.p>
           <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-pearl leading-tight mb-6">
-            Where Tradition Meets{" "}
-            <span className="text-gold-gradient">Elegance</span>
+            Wholesale Fashion Collections
           </h1>
           <p className="font-body text-base md:text-lg text-pearl/70 max-w-lg mb-8">
-            Discover handcrafted kurtis, silk sets, and cotton specials — curated for retailers who value quality and heritage.
+            Premium kurtis, silk sets, and cotton essentials — quality stock for retailers.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
