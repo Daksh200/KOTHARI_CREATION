@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import Index from '@/pages/Index';
 import About from '@/pages/About';
 import Collections from '@/pages/Collections';
+import LiveShowroom from '@/pages/LiveShowroom';
 import NotFound from '@/pages/NotFound';
 import './App.css';
 
@@ -30,7 +31,7 @@ function App() {
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
 
-              <Route path="/live-showroom" element={<div style={{padding: '2rem', textAlign: 'center'}}>Live Showroom Coming Soon</div>} />
+              <Route path="/live-showroom" element={<LiveShowroom />} />
 
               <Route path="/collections" element={<Collections />} />
               <Route path="/collections/:type" element={<Collections />} />
@@ -47,4 +48,3 @@ function App() {
 }
 
 export default App;
-
